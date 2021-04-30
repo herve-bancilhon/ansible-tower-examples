@@ -6,4 +6,4 @@ app1
 app2
 
 [appdbs]
-appdb1
+appdb1 ansible_host=192.168.122.85
