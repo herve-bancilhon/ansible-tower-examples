@@ -1,3 +1,8 @@
-web ansible_host=192.168.122.5
-api ansible_host=192.168.122.73
-database ansible_host=192.168.122.85
+[web]
+web1 ansible_host=192.168.122.5
+
+[api]
+api1 ansible_host=192.168.122.73
+
+[database]
+db1 ansible_host=192.168.122.85
