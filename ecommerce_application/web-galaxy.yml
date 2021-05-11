@@ -1,8 +1,10 @@
+
 #(C) Copyright 2020 Hewlett Packard Enterprise Development LP
 ---
-- name: Install DB Component 
-  hosts: database
+- name: Install Web Component
+  hosts: web
   remote_user: root
   roles:
-   - docker-galaxy
-   - database
+    - docker-galaxy
+    - web
+
